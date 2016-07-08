@@ -1,0 +1,259 @@
+*{	font-family:  "Times New Roman", Times, serif;}
+body {background-color: lightgreen; margin: 0;}
+h1{font-family:  "Times New Roman", Times, serif;text-align:center;}
+#conteudo {height: 90%;background-color: white;box-shadow: 5px 5px 10px grey;}
+#login{text-align: center;background-color: white;border-style: solid;border-color: lightgray;border-width: 1px;}
+@media (max-width: 240px){
+h1 {
+         font-size: 1em;
+		 text-shadow:2px 2px 2px #CCCCCC;
+}
+#conteudo {	
+		 width: 90%;
+		 margin: 5% auto;
+		 -webkit-border-radius: 20px;
+		 -moz-border-radius: 20px ;
+		 -border-radius: 20px;
+		 padding: 3%;
+}
+
+#login{
+		 margin: 0 auto;
+		 padding-bottom: 10px
+}	
+input[type=text], input[type=password]{     
+    width: 80%;
+	height: 10px;
+    font-size: 0.5em;
+}
+#texto{
+	font-size: 0.5em;
+}
+input[type=submit]{
+    font-size: 0.5em;
+    width: 40%;
+	height: 10px;
+
+}
+}
+@media (min-width:241px) and (max-width: 380px){
+h1 {
+         font-size: 1.2em;
+		 text-shadow:2px 2px 2px #CCCCCC;
+}
+#conteudo {	
+		 width: 90%;
+		 margin: 5% auto;
+		 -webkit-border-radius: 20px;
+		 -moz-border-radius: 20px ;
+		 -border-radius: 20px;
+		 padding: 3%;
+}
+
+#login{
+		 margin: 0 auto;
+		 padding-bottom: 10px
+}	
+input[type=text], input[type=password]{     
+    width: 80%;
+	height: 40px;
+	font-size: 2em;
+}
+#texto{
+	font-size: 1em;
+}
+input[type=submit]{
+    font-size: 1em;
+    width: 50%;
+	height: 40px;
+}
+#rodape{
+	posistion: absolute;
+	margin-top: 60%;
+	bottom:0;
+	right:0;
+	text-align:right;
+	height: 40px;
+	line-height:40px;
+	background-color: green;
+	color: lightgray;
+}
+}
+@media (min-width:241px) and (max-width: 380px) and (orientation:landscape){
+h1 {
+         font-size: 1em;
+		 text-shadow:2px 2px 2px #CCCCCC;
+}
+#conteudo {	
+	width: 90%;
+	margin: 12% auto;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px ;
+	-border-radius: 20px;
+	padding: 3%;
+}
+
+#login{
+		 margin: 0 auto;
+		 padding-bottom: 10px
+}	
+input[type=text], input[type=password]{     
+    width: 80%;
+	height: 20px;
+	font-size: 1em;
+}
+#texto{
+	font-size: 1em;
+}
+input[type=submit]{
+    font-size: 1em;
+    width: 50%;
+	height: 20px;
+
+}
+#rodape{
+	posistion: absolute;
+	margin-top: 13%;
+	bottom:0;
+	right:0;
+	text-align:right;
+	height: 20px;
+	line-height:20px;
+	background-color: green;
+	color: lightgray;
+}
+}
+@media (min-width: 381px) and (max-width: 499px){
+h1 {
+	font-size: 1.4em;
+	text-shadow:2px 2px 2px #CCCCCC;
+}
+#conteudo {	
+		 width: 90%;
+		 margin: 5% auto;
+		 -webkit-border-radius: 20px;
+		 -moz-border-radius: 20px ;
+		 -border-radius: 20px;
+		 padding: 3%;
+}
+
+#login{
+		 margin: 0 auto 0 auto;
+		 padding-bottom: 10px
+}	
+input[type=text], input[type=password]{     
+    width: 80%;
+	height: 30px;
+	font-size: 2em;
+}
+#texto{
+
+	font-size: 1em;
+}
+input[type=submit]{
+    font-size: 1.5em;
+    width: 50%;
+	height: 40px;
+}
+#rodape{
+	posistion: absolute;
+	margin-top: 40%;
+	bottom:0;
+	right:0;
+	text-align:right;
+	height: 40px;
+	line-height:40px;
+	background-color: green;
+	color: lightgray;
+}
+}
+@media screen and (min-width:500px) and (max-width: 999px){
+h1 {
+         font-size: 2em;
+		 text-shadow:2px 2px 2px #CCCCCC;
+}
+#conteudo {	
+		 width: 90%;
+		 margin: 10% auto;
+		 -webkit-border-radius: 10px;
+		 -moz-border-radius: 10px ;
+		 -border-radius: 10px;
+		 padding-bottom: 2%;
+}
+
+#login{
+		 width: 95%;
+		 margin: 0 auto 0 auto;
+}
+#rodape{
+	posistion: absolute;
+	margin-top: 13%;
+	bottom:0;
+	right:0;
+	text-align:right;
+	height: 20px;
+	line-height:20px;
+	background-color: green;
+	color: lightgray;
+}	
+}
+@media screen and (min-width:1000px) and (max-width: 1099px){
+h1 {
+         font-size: 2em;
+		 text-shadow:2px 2px 2px #CCCCCC;
+}
+#conteudo {	
+		 width: 70%;
+		 margin: auto;
+		 -webkit-border-radius: 10px;
+		 -moz-border-radius: 10px ;
+		 -border-radius: 10px;
+		 padding: 2%;
+}
+
+#login{
+		 width: 95%;
+		 margin: 0 auto;
+}
+#rodape{
+	posistion: absolute;
+	margin-top: 26.15%;
+	bottom:0;
+	right:0;
+	text-align:right;
+	height: 20px;
+	line-height:20px;
+	background-color: green;
+	color: lightgray;
+}
+}
+@media screen and (min-width:1100px){
+h1 {
+        font-size: 2em;
+		 text-shadow:2px 2px 2px #CCCCCC;
+}
+#conteudo {	
+		 width: 50%;
+		 margin: auto;
+		 -webkit-border-radius: 10px;
+		 -moz-border-radius: 10px ;
+		 -border-radius: 10px;
+		 padding-bottom: 2%;
+}
+
+#login{
+		 width: 95%;
+		 margin: 0 auto 0 auto;
+}	
+#rodape{
+	posistion: absolute;
+	margin-top: 23.2%;
+	bottom:0;
+	right:0;
+	text-align:right;
+	height: 20px;
+	line-height:20px;
+	background-color: green;
+	color: lightgray;
+}
+}

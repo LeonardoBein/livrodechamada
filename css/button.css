@@ -1,0 +1,46 @@
+.button{
+color: #fff;
+font-family: sans-serif;
+font-size: 14px;
+border: 1px solid;
+border-radius: 3px;
+height: 35px;
+width: 100%;
+}
+
+.red{
+  background: #e23636;
+  border-color: #ee5252;
+
+}
+.red:hover{
+  background: #8b2323;
+}
+
+.blue{
+background: #5ab1c1;
+border-color: #5ab1c1;
+}
+
+.blue:hover{
+  background: #40757e;
+
+}
+
+.white{
+  color: #000;
+  background: #F5F8FA;
+  border-color: #F5F8FA;
+}
+
+.white:hover{
+  color: #5ab1c1;
+  background: #f2f3f4;
+}
+
+.right{
+  text-align: right;
+}
+.left{
+  text-align: left;
+}

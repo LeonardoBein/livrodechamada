@@ -1,19 +1,6 @@
-#!/bin/bash
+<?php
 
-cd config/
-echo "<?php
-
-// configuração do banco de dados
-define('LOCALHOSTDB' , '%host%');
-define('USERNAMEDB', '%userDB%');
-define('PASSWORDDB', '%passwordDB%');
-define('BANCDB',  '%bancDB%');
-
-
-?>" > db_inc.php
-echo "<?php
-
-\$install = false;
+$install = false;
 
 if (!define('VERSION'))
 	define('VERSION', '0.0.0-beta');
@@ -43,11 +30,4 @@ if ( !defined('RAIZ') )
 if ( !defined('DEBUG') )
 	define('DEBUG', true);
 
-?>" > main_inc.php
-cd ..
-#chown -R www-data:www-data config/
-wget https://raw.githubusercontent.com/google/recaptcha/1.0.0/php/recaptchalib.php -O classes/recaptchalib.php
-wget https://gist.githubusercontent.com/TiuTalk/3438461/raw/6be0ec3d4b81f91284e38ee89cf0c02158f1db85/Bcrypt.php -O classes/bcrypt.php
-wget http://www.mpdfonline.com/repos/MPDF_6_0.zip -O /tmp/MPDF.zip
-unzip /tmp/MPDF.zip -d include/
-mv include/mpdf60 include/mpdf
+?>

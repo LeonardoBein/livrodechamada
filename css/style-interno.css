@@ -1,0 +1,374 @@
+
+/*Desktop*/
+@media (min-width:800px){
+
+#adicionaturma{
+    font-size: 1.2em;
+    padding: 3px 0;
+    margin: 0 auto;
+    width: 320px;
+    background-color: #EFF;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+	   border-radius: 2px;
+    box-shadow: 0px 1px 10px grey;
+}
+#adicionaturma input[type=text]{
+    font-size: 24px;
+    font-family: sans-serif;
+    width: 85%;
+    border: 1px solid rgb(221, 221, 221);
+}
+#adicionaturma input[type=text]:focus{
+  border: 1px solid rgb(83, 177, 217);
+}
+#adicionaturma input[type=submit]{
+  margin-top: 10px;
+  width: 50%;
+
+}
+#tabela{
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 0.5%;
+    height: auto;
+    width: 97%;
+    background-color: #EFF;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+	  border-radius: 2px;
+    box-shadow: 0px 1px 10px grey;
+}
+
+.form-tablet{
+  padding: 10px 0px;
+  width: 100%;
+  height: 33px;
+
+}
+#turma-index,
+#disciplina-index,
+#apaga,
+#more-info,
+#editar{
+  text-align: center;
+  background: #546054;
+  width: 13%;
+  color: #fff;
+  display: inline-block;
+  padding: 0px 1.29%;
+  border-radius: 1px;
+}
+#editar{
+  width: 5.9999%;
+
+}
+#more-info{
+  width: 46%;
+
+}
+#apaga{
+  width: 7%;
+}
+
+
+.coluna1,
+.coluna2,
+.editar,
+.apagar,
+.more-info{
+    text-align: center;
+    display: inline-block;
+    padding: 0px 1.29%;
+    line-height: 33px;
+
+}
+
+
+.coluna1,
+.coluna2{
+  border-right: 1px solid #000000;
+  width: 13%;
+
+}
+.coluna1:hover,
+.coluna2:hover{
+  background: #546054;
+  color: #fff;
+
+}
+.apagar{
+  width: 6.5%;
+
+}
+.editar{
+  width: 5.9999%;
+
+}
+.more-info{
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  width: 46%;
+  height: auto;
+
+}
+/* ---Config-----*/
+#img{
+  height: 112px;
+  background: #2d7ba7;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0px 1px 10px grey;
+  margin-top: 17px;
+}
+#img img{
+  border-radius: 26px;
+  padding-top: 6px;
+  padding-left: 6px;
+  float: left;
+  margin-top: 24px;
+  /*box-shadow: 0px 4px 10px -6px grey;*/
+}
+#img img:hover{
+  opacity: 0.9;
+
+}
+#information{
+  text-align: left;
+  background: #f6f4f4;
+  width: 100%;
+  height: auto;
+
+}
+#information p{
+  padding-top: 29px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  font-size: 18px;
+  margin-top: -1px;
+}
+#menu_config{
+  position: absolute;
+  width: 22%;
+  left: 2%;
+
+}
+.ul_config{
+  list-style: none;
+  padding: 0px;
+
+}
+.option_config{
+  color: #000;
+  width: 100%;
+  border-bottom: 2px solid #546054;
+}
+.menu_config_label{
+  display: none;
+}
+#content{
+  position: absolute;
+  width: 72%;
+  top: 23px;
+  left: 25%;
+  background: #fff;
+  padding: 10px;
+}
+/*--------*/
+}
+/*
+*
+*
+*----------Mobile------------*/
+@media (max-width: 799px){
+
+#adicionaturma{
+
+    font-size: 1.2em;
+    background-color: #EFF;
+    margin: 3% auto;
+    width: 80%;
+    padding: 1%;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    box-shadow: 0px 1px 10px gray;
+
+}
+
+#adicionaturma input[type=text]{
+    font-size: 24px;
+    width: 85%;
+    border: 1px solid rgb(221, 221, 221);
+}
+#adicionaturma input[type=text]:focus{
+  border: 1px solid rgb(83, 177, 217);
+}
+#adicionaturma input[type=submit]{
+  margin-top: 10px;
+  width: 50%;
+
+}
+
+#tabela{
+
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 1%;
+  height: auto;
+  width: 94%;
+  background-color: #EFF;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  box-shadow: 0px 1px 10px grey;
+
+}
+
+.form-tablet{
+  padding: 10px 0px;
+  width: 100%;
+  height: 66px;
+  border-bottom: 2px solid #000;
+}
+
+#turma-index,
+#disciplina-index,
+#apaga,
+#more-info,
+#editar{
+  text-align: center;
+  line-height: 40px;
+  padding: 0px 3.5%;
+  background: #546054;
+  width: 42%;
+  color: #fff;
+  display: inline-block;
+  border-radius: 1px;
+}
+#apaga,#editar,#more-info{
+  display: none;
+}
+
+.coluna1,
+.coluna2,
+.editar,
+.apagar,
+.more-info{
+    text-align: center;
+    display: inline-block;
+    padding: 0px 3.42%;
+    line-height: 33px;
+
+}
+
+
+.coluna1,
+.coluna2{
+  border-right: 1px solid #000000;
+  width: 42%;
+
+}
+.coluna1:hover,
+.coluna2:hover{
+  background: #546054;
+  color: #fff;
+
+}
+
+.editar,
+.apagar{
+  width: 42%;
+
+}
+
+.more-info{
+  display: none;
+}
+/* ---Config-----*/
+#img{
+  height: 112px;
+  background: #2d7ba7;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0px 1px 10px grey;
+  margin-top: 17px;
+}
+#img img{
+  border-radius: 26px;
+  padding-top: 6px;
+  padding-left: 6px;
+  float: left;
+  margin-top: 24px;
+  position: relative;
+  z-index: 100;
+  box-shadow: 0px 4px 10px -6px grey;
+}
+#img img:hover{
+  opacity: 0.9;
+
+}
+#information{
+  text-align: left;
+  background: #f6f4f4;
+  width: 100%;
+  height: auto;
+  z-index: 99;
+  position: relative;
+}
+#information p{
+  padding-top: 29px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  font-size: 18px;
+  margin-top: -1px;
+}
+#menu_config{
+  position: absolute;
+  width: 93%;
+  padding-left: 2%;
+
+
+}
+.ul_config{
+  list-style: none;
+  padding: 0px;
+
+}
+.option_config{
+  color: #000;
+  width: 100%;
+  border-bottom: 2px solid #546054;
+  margin-top: 0px;
+  position: relative;
+  z-index: 98;
+  transition: all 500ms ease 0s;
+  transform: scale(0.1,1) translate(-600%,0);
+
+}
+
+.menu_config_label{
+  position: relative;
+  float: right;
+  top: -51px;
+  padding-right: 27px;
+  z-index: 101;
+
+}
+#menu_config_input:checked ~ .ul_config .option_config {
+  transform: translate(0,0);
+}
+
+#content{
+  position: absolute;
+  background: #fff;
+  width: 93%;
+  margin-left: 2%;
+  top: 250px;
+  padding-top: 20px;
+}
+#content p{
+  padding-left: 10px;
+}
+/*--------*/
+}

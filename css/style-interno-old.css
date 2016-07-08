@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+min-width: 320px;
+	background-color: #CCFFFF;
+margin: 0;
+font-family: serif;
+}
+#barra {
+    position: fixed;
+    top: 0;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    min-width: 400px;
+    color: whitesmoke;
+    z-index: 998;
+    background: -webkit-linear-gradient(green, darkgreen); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(green, darkgreen); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(green, darkgreen); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(green, darkgreen); /* Standard syntax */
+}
+#conteudo{
+min-width: 320px;
+}
+#sair {
+    z-index:  999;
+    position: absolute;
+    top:  7.5px;
+    right: 1%;
+    line-height: 40px;
+}
+#sair a:hover{
+    text-shadow: 5px 5px white;
+}
+#conteudo{
+    position: relative;
+    top: 50px;
+    margin-bottom: auto;
+}
+#adicionaturma{
+    font-size: 1.2em;
+    background-color: #EEFFFF;
+    margin: auto;
+    width: 25%;
+    padding: 1%;
+    border: 1px solid darkgreen;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+#tabela{
+    width: 80%;
+    margin: 20px auto auto auto;
+    background-color: #EEFFFF;
+    border: 1px solid darkgreen;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -border-radius: 5px;
+    padding: 2px;
+    box-shadow: 5px 5px 10px gray;
+}
+table{
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+th{
+    color: white;
+    font: bold;
+    background: -webkit-linear-gradient(green, darkgreen); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(green, darkgreen); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(green, darkgreen); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(green, darkgreen); /* Standard syntax */    
+}
+table th, td, tr {
+    border:  1px solid green;
+}
+input[type=image]{
+    width: auto;
+    height: 20px;
+}
+.coluna1, .coluna2{
+    width: 10px;
+}
+.botao, .botao2, .botao3, .botao4, .botao5{text-align: center;}
+#rodape{
+    position: fixed;
+    height: 30px;
+    line-height: 30px;
+    bottom: 0px;
+    right: 20px;
+    color: darkgreen;
+    font-family: serif;
+    font: bold;
+}
+

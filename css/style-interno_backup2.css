@@ -1,0 +1,324 @@
+@media (min-width: 500px){
+    *{
+    margin: 0;
+    padding: 0;
+}
+body {
+min-width: 320px;
+	background-color: #CCFFFF;
+margin: 0;
+font-family: serif;
+}
+#tabela{
+position: absolute;
+left: 10%;
+padding: 0.5%;
+margin-bottom: 30px;
+}
+#turma, #disciplina, #chamada, #avaliacao, #alunos, #relatorios, #apaga{
+    float: left;
+
+	text-align:center;
+	line-height: 20px;
+    height: 20px;
+    border: 1px solid green;
+	color:#FFFFFF;
+	    background: -webkit-linear-gradient(green, darkgreen); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(green, darkgreen); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(green, darkgreen); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(green, darkgreen); /* Standard syntax */
+	
+}
+#apaga{
+
+}
+#barra {
+    position: fixed;
+    top: 0;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    min-width: 400px;
+    color: whitesmoke;
+    z-index: 998;
+    background: -webkit-linear-gradient(green, darkgreen); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(green, darkgreen); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(green, darkgreen); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(green, darkgreen); /* Standard syntax */
+}
+#sair {
+    z-index:  999;
+    position: absolute;
+    top:  7.5px;
+    right: 1%;
+    line-height: 40px;
+}
+#sair a:hover{
+    text-shadow: 5px 5px white;
+}
+#conteudo{
+    position: relative;
+    top: 50px;
+    margin-bottom: auto;
+}
+#adicionaturma{
+    font-size: 1.2em;
+    background-color: #EEFFFF;
+    margin: 3% auto;
+    width: 25%;
+    padding: 1%;
+    border: 1px solid darkgreen;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+#tabela{
+    width: 79.9%; /* de 80% para 79.9%*/
+    background-color: #FFF;
+    border: 1px solid darkgreen;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+	    border:  1px solid green;
+}
+.coluna1, .coluna2, .botao, .botao2, .botao3, .botao4, .botao5{
+     float: left;
+    margin: -0.5px 0;
+	text-align:center;
+} 
+.coluna1{clear: both;}
+/*clear: both; resolve problema com tabela em float*/
+.coluna1, .coluna2{
+	line-height: 22px;
+    vertical-align: central;
+    height: 22px;
+    border: 1px solid green;
+	color: darkgreen;
+
+}
+.botao, .botao2, .botao3, .botao4, .botao5{
+padding-bottom: 1px;
+padding-top: 1px;
+    height: 20px;
+    border: 1px solid green;
+	color:#FFFFFF;
+
+}
+#tabela input[type="image"] {
+height: 20px;
+width: auto;
+}
+#turma, #disciplina{
+    width: 15%;
+}
+.coluna1, .coluna2{
+    width: 15%;
+}
+#chamada, #avaliacao, #alunos, #relatorios, #apaga {
+    width: 13.7447%
+}
+.botao, .botao2, .botao3, .botao4, .botao5{
+    width: 13.7447%
+}
+#rodape{
+    position: fixed;
+    height: 30px;
+    line-height: 30px;
+    bottom: 0px;
+    right: 20px;
+    color: darkgreen;
+    font-family: serif;
+    font: bold;
+}
+}
+@media (max-width: 499px){
+    *{
+    margin: 0;
+    padding: 0;
+}
+body {
+min-width: 320px;
+background-color: #CFF;
+margin: 0;
+font-family: serif;
+}
+#conteudo{
+    margin-bottom: 30px;
+}
+#tabela{
+position: absolute;
+left: 10%;
+right: 10%;
+padding: 1%;
+margin-bottom: 30px;
+}
+#turma, #disciplina, #chamada, #avaliacao, #alunos, #relatorios, #apaga{
+    float: left;
+	text-align:center;
+	line-height: 20px;
+    height: 20px;
+    border: 1px solid green;
+	color:#FFFFFF;
+    font-weight: bold;
+    background: -webkit-linear-gradient(green, darkgreen); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(green, darkgreen); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(green, darkgreen); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(green, darkgreen); /* Standard syntax */
+	
+}
+#barra {
+    position: fixed;
+    top: 0;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    /*min-width: 300px;98*/
+    color: whitesmoke;
+    z-index: 998;
+    background: -webkit-linear-gradient(green, darkgreen); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(green, darkgreen); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(green, darkgreen); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(green, darkgreen); /* Standard syntax */
+}
+#sair {
+    z-index:  999;
+    position: absolute;
+    top:  7.5px;
+    right: 1%;
+    line-height: 40px;
+}
+#sair a:hover{
+    text-shadow: 5px 5px white;
+}
+#conteudo{
+    position: relative;
+    top: 50px;
+    margin-bottom: auto;
+}
+#adicionaturma{
+    font-size: 1.2em;
+    background-color: #EEFFFF;
+    margin: 3% auto;
+    width: 70%;
+    padding: 1%;
+    border: 1px solid darkgreen;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+#tabela{
+    width: 80%;
+    background-color: #FFF;
+    border: 1px solid darkgreen;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+	    border:  1px solid green;
+        margin-bottom: 60px;
+}
+.botao{
+     -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0 ;
+    -border-radius: 5px 0 0 0;   
+}
+.botao2{
+     -webkit-border-radius: 0 5px 0 0;
+    -moz-border-radius: 0 5px 0 0 ;
+    -border-radius: 0 5px 0 0;   
+}
+.botao3{
+     -webkit-border-radius: 0 0 0 5px;
+    -moz-border-radius: 0 0 0 5px;
+    -border-radius: 0 0 0 5px;   
+}
+.botao4{
+     -webkit-border-radius: 0 0 5px 0;
+    -moz-border-radius: 0 0 5px 0 ;
+    -border-radius: 0 0 5px 0;   
+}
+.coluna1, .coluna2, .botao, .botao2, .botao3, .botao4, .botao5{
+float: left;
+    margin: -0.5px 0;
+	text-align:center;
+} 
+.coluna1, .coluna2{
+    vertical-align: central;
+    border: 1px solid green;
+	color: darkgreen;
+        box-shadow: 5px 5px 10px gray;
+
+}
+.botao, .botao2, .botao3, .botao4, .botao5{
+padding-bottom: 5px;
+padding-top: 5px;
+    border: 1px solid green;
+	color:#FFFFFF;
+
+}
+#tabela input[type="image"] {
+height: 40px;
+width: auto;
+}
+#turma, #disciplina{
+
+    width: 49%;
+
+}
+.coluna1, .coluna2{
+    font-weight: bold;
+        background-color: lightgreen;
+        margin-top: 1px;
+	line-height: 20px;
+    width: 49%;
+        height: 20px;
+        margin-bottom: 1px;
+}
+#chamada, #avaliacao, #alunos, #relatorios, #apaga {
+    display: none;
+}
+.botao, .botao3{
+    background-color: #FFF;
+        margin: 1% 1% 1% 0%;
+        width: 47%;
+        overflow-x: hidden;
+            box-shadow: 5px 5px 10px gray;
+}
+.botao2, .botao4 {
+    background-color: #FFF;
+            margin: 1% 0 1% 1%;
+    width: 47%;
+        box-shadow: 5px 5px 10px gray;
+}
+.botoes{
+    width: 65.333333333333%;
+    float: left;
+    margin-bottom: 3px;
+    border: 1px solid transparent;
+}
+.botao5{
+background-color: #FFF;
+    margin: 2% 1% 2% 0%;
+    float: left;
+    width: 30%;
+    padding: 30.5px 0;
+        -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+	    border:  1px solid green;
+}
+#rodape{
+    position: fixed;
+    height: 30px;
+    line-height: 30px;
+    bottom: 0px;
+    right: 20px;
+    color: darkgreen;
+    font-family: serif;
+    font: bold;
+}
+}

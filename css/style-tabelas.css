@@ -1,0 +1,78 @@
+table.nomes input[type=text]{
+    border: 1px solid darkgreen;
+}
+
+#meio, #conteudochamada {
+        text-align: center;
+    background-color: #eff;
+        border: 1px solid darkgreen;
+        -webkit-border-radius: 10px;
+	-moz-border-radius: 10px ;
+	border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*porque isso? Nao sei*/
+#meio.alterachamada p{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid darkgreen;
+    background-color: #eff;
+            -webkit-border-radus: 2px;
+	-moz-border-radius: 2px ;
+	border-radius: 2px;
+    width: 95%;
+}
+table , td, th, tr{
+    border: 1px solid darkgreen;
+    padding: 2px;
+    background-color: #eff;
+border-collapse: collapse;
+}
+@media (min-width:800px){
+/*Fazer meio.criativ e meio.chamada para menor de 799*/
+
+#meio.criativ{
+    width: 40%;
+}
+#meio.chamada{
+padding: 10px;
+width: 45%;
+}
+#meio.alterachamada{
+    width: 40%;
+    margin: auto;
+}
+table.nomes{
+    border-collapse:  collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#meio.nomes{
+    padding: 10px;
+    margin: auto;
+    width: 40%;
+}
+}
+@media (max-width:799px){
+table.nomes{
+    border-collapse:  collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#meio.nomes{
+    padding: 5px;
+    margin: auto;
+    min-width: 300px;
+    width: 60%;
+}
+#meio.alterachamada{
+        min-width: 300px;
+    width: 60%;
+    margin: auto;
+}
+    }

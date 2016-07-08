@@ -1,0 +1,35 @@
+#meio.chamada table, td, th, tr{
+border-color: green;
+}
+#meio.chamada table{
+margin-bottom: 10px;
+}
+#meio p.total{
+color: whitesmoke;
+background-color: darkgreen;
+font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid darkgreen;
+     -webkit-border-radus: 2px;
+	-moz-border-radius: 2px ;
+	border-radius: 2px;
+    box-shadow: 5px 5px 10px grey;
+    width: 95%;
+}
+.cabnumero,.cabnome, .cabchamada, .cabfaltas{
+color: whitesmoke;
+  background: -webkit-linear-gradient(green, darkgreen);
+    background: -o-linear-gradient(green, darkgreen);
+    background: -moz-linear-gradient(green, darkgreen);
+    background: linear-gradient(green, darkgreen);
+font-weight: bold;
+vertical-align: central;
+text-align: center;
+}
+#conteudochamada{
+text-align: right;
+padding: 10px;
+margin-bottom:
+10px;width: 300px
+}
